@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/gris/gris-f/homelv/xjia/pmpp/ex1/main.cc
+iostream
+-
+iomanip
+-
+matmul.h
+/gris/gris-f/homelv/xjia/pmpp/ex1/matmul.h
+test.h
+/gris/gris-f/homelv/xjia/pmpp/ex1/test.h
+
+/gris/gris-f/homelv/xjia/pmpp/ex1/matmul.h
+
+/gris/gris-f/homelv/xjia/pmpp/ex1/matrix.h
+cstdlib
+-
+
+/gris/gris-f/homelv/xjia/pmpp/ex1/test.h
+iostream
+-
+vector
+-
+algorithm
+-
+random
+-
+stdexcept
+-
+matrix.h
+/gris/gris-f/homelv/xjia/pmpp/ex1/matrix.h
+

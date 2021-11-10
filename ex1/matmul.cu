@@ -12,8 +12,18 @@
 #include "timer.h"
 
 void print_cuda_devices()
-{
-	// TODO: Task 2
+{	
+	int deviceCount;
+	cudaGetDeviceCount(&deviceCount);
+	int device;
+	for (device = 0; device < deviceCount; ++device) {
+   	 cudaDeviceProp deviceProp;
+    	cudaGetDeviceProperties(&deviceProp, device);
+    	printf("Device %d has compute capability %d.%d.\n",
+           device, deviceProp.major, deviceProp.minor);
+	printf("Device %d has Multiprocessor %d,L2Cache %d,Clockrate %d GHz,Total globalmem %d MB \n",
+			device,deviceProp.multiProcessorCount,deviceProp.L2CacheSize*2e-10,deviceProp.clockRate*1e-6,deviceProp.totalGlobalMem*2e-2);
+	}// TODO: Task 2
 }
 
 void matmul()

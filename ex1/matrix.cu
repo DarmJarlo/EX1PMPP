@@ -23,7 +23,10 @@ void matrix_free_cpu(CPUMatrix &m)
 
 GPUMatrix matrix_alloc_gpu(int width, int height)
 {
-	// TODO (Task 4): Allocate memory at the GPU
+	GPUMatrix Md;
+	int size = width * height * sizeof(float);
+        cudaMalloc((void**)&Md.elements, size);
+       	return Md;	// TODO (Task 4): Allocate memory at the GPU
 }
 void matrix_free_gpu(GPUMatrix &m)
 {

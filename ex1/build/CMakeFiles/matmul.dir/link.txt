@@ -1,0 +1,1 @@
+/usr/lib/nvidia-cuda-toolkit/bin/g++   CMakeFiles/matmul.dir/main.cu.o CMakeFiles/matmul.dir/matmul.cu.o CMakeFiles/matmul.dir/matrix.cu.o CMakeFiles/matmul.dir/test.cu.o CMakeFiles/matmul.dir/mul_cpu.cu.o CMakeFiles/matmul.dir/mul_gpu.cu.o CMakeFiles/matmul.dir/cmake_device_link.o -o matmul  -L"/usr/lib/x86_64-linux-gnu/stubs" -lcudadevrt -lcudart_static -lrt -lpthread -ldl

@@ -1,0 +1,3 @@
+/gris/gris-f/homelv/xjia/pmpp/ex1/build/CMakeFiles/rebuild_cache.dir
+/gris/gris-f/homelv/xjia/pmpp/ex1/build/CMakeFiles/edit_cache.dir
+/gris/gris-f/homelv/xjia/pmpp/ex1/build/CMakeFiles/matmul.dir
